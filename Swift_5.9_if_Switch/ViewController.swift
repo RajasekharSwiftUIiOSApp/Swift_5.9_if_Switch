@@ -19,7 +19,7 @@ class ViewController: UIViewController {
 
 
        print(bonusMultiplier1)
-       print(bonusMultiplier2)
+       //print(bonusMultiplier2)
 
 
     }
