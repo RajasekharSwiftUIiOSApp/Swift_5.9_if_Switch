@@ -17,8 +17,8 @@ class ViewController: UIViewController {
         let bonusMultiplier2 = if customerRating > 3 {"this"} else {"2.0"}
 
 
-       print(bonusMultiplier1)
-       print(bonusMultiplier2)
+       //print(bonusMultiplier1)
+       //print(bonusMultiplier2)
 
     }
     
@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         switchStatementWithResult()
         
         let results = switchStatementWithResultReturn()
-        print("results: \(results)")
+        //print("results: \(results)")
 
         
         terneriOperaterVSifStatement_diff_inValueType_BasedOnValue_Change()
