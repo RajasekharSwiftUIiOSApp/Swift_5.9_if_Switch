@@ -16,8 +16,8 @@ class ViewController: UIViewController {
         let bonusMultiplier1 = customerRating > 3 ? "great" : "greater"
         let bonusMultiplier2 = if customerRating > 3 {"this"} else{"2.0"}
         
-        print(bonusMultiplier1)
-        print(bonusMultiplier2)
+//        print(bonusMultiplier1)
+//        print(bonusMultiplier2)
     }
     
     override func viewDidLoad() {
@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         switchStatementWithResult()
         
         let results = switchStatementWithResultReturn()
-        print("results: \(results)")
+        //print("results: \(results)")
         
         terneriOperaterVSifStatement_diff_inValueType_BasedOnValue_Change()
     }
@@ -37,7 +37,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         // let score = 800
         let simpleResult = if score > 500 { "Pass" } else { "Fail" }
-        print(simpleResult)
+       // print(simpleResult)
     }
     
     fileprivate func switchStatementWithResult() {
@@ -47,7 +47,7 @@ class ViewController: UIViewController {
         case 501...800: "Merit"
         default: "Distinction"
         }
-        print(complexResult)
+       // print(complexResult)
     }
     
     fileprivate func switchStatementWithResultReturn() -> String {
