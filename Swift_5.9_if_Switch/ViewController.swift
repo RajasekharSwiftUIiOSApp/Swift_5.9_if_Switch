@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         let bonusMultiplier2 = if customerRating > 3 {"this"} else {"2.0"}
 
 
-      // print(bonusMultiplier1)
+       print(bonusMultiplier1)
        print(bonusMultiplier2)
 
     }
@@ -41,7 +41,7 @@ class ViewController: UIViewController {
         // let score = 800
         let simpleResult = if score > 500 { "Pass" } else { "Fail" }
 
-       // print(simpleResult)
+        print(simpleResult)
     }
     
     fileprivate func switchStatementWithResult() {
@@ -51,7 +51,7 @@ class ViewController: UIViewController {
         case 501...800: "Merit"
         default: "Distinction"
         }
-       // print(complexResult)
+        print(complexResult)
 
     }
     
