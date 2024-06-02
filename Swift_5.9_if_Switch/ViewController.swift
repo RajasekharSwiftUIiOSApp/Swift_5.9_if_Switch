@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         let customerRating = 4
         let bonusMultiplier1 = customerRating > 3 ? "great" : "greater"
         let bonusMultiplier2 = if customerRating > 3 {"this"} else {"2.0"}
-
+//
       // print(bonusMultiplier1)
       // print(bonusMultiplier2)
 
